@@ -1,0 +1,32 @@
+ .isotope_wrapper {
+          display: flex;
+          flex-direction: column;
+      }
+
+      .isotope_wrapper > div {
+          display: flex;
+          flex-direction: row;
+          flex-wrap: wrap;
+          margin: 0 -1rem;
+          justify-content: space-between;
+      }
+
+      .isotope_wrapper > div > ul {
+          display: flex;
+          flex-wrap: wrap;
+          margin: 1rem;
+      }
+
+      .isotope_wrapper > div>div {
+          padding: 1rem;
+          border: 1px solid #eee;
+          margin: 1rem;
+      }
+
+      .isotope_wrapper > div > ul > li {
+          padding: 0.5rem 1rem;
+          background: #eee;
+          margin: 2px;cursor:pointer;
+          border-radius: 4px;
+      }
+     

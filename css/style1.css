@@ -1,0 +1,49 @@
+
+    .isotope_wrapper {
+          display: flex;
+          flex-direction: column;
+      }
+
+    .isotope_wrapper > div {
+          display: flex;
+          flex-direction: row;
+          flex-wrap: wrap;
+          margin: 0 -1rem;
+          justify-content: space-between;
+      }
+   .grid{
+          display: flex;
+          flex-direction: row;
+          flex-wrap: wrap;
+          justify-content: space-between;
+          min-height: 240px;
+      }
+   .grid-item{
+            padding: 1rem;
+            border: 1px solid #eee;
+            margin: 1rem;
+   }
+   h5.title {
+        color: brown;
+  }
+  .grid-item a{
+        text-decoration: none;
+  }
+ #my_loadmore{
+  background-color: #ddd;
+  vertical-align: bottom;
+  margin-top: auto;
+  border-radius: 2px;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 800;
+  letter-spacing:1px;
+  cursor:pointer;
+  text-transform: uppercase;
+  padding: 8px ;
+  
+}
+#my_loadmore:hover{
+  background-color: #767676;
+  color: #fff;
+}
